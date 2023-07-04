@@ -1,0 +1,11 @@
+spring:
+  datasource:
+        url: jdbc:postgresql://localhost:5432/first_db
+        username: postgres
+        password: postgres
+  jpa:
+    generate-ddl: true
+  mustache:
+    suffix: .html
+    servlet:
+      expose-request-attributes: true
